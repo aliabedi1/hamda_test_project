@@ -1,0 +1,18 @@
+allocate => تخصیص سند
+/api/allocate/all => تخصیص سند های ازاد برای تمامی کاربران
+/api/allocate/{user}/{document} => تخصیص سند با id به کاربر با id
+
+done => پایان فرایند ها بر روی سند
+/api/done/{user}/{document} => انجام فرایند سند برای id به کاربر با id
+
+make => ایجاد دیتا
+/api/make/registrar => ایجاد کاربر ثبت کننده
+/api/make/reviewer => ایجاد کاربر برسی کننده
+/api/make/document => ایجاد سند
+
+cancel =>
+/api/cancel/{user}/{document} => انصراف سند با id برای کاربر با id 
+
+list => نمایش لیست
+/api/user => نمایش لیست کاربران
+/api/document => نمایش لیست اسناد
